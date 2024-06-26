@@ -12,12 +12,15 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>MongoDB</li>
+        <li>Firebase</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Next.js</li>
       </ul>
     ),
   },
@@ -57,7 +60,6 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        {/* <Image src="/images/about-image.png" width={500} height={500} alt="i" /> */}
         <Lottie animationData={aboutLottie} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-[#ae9807] mb-4">About Me</h2>

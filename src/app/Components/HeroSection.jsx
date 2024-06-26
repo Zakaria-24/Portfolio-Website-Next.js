@@ -49,13 +49,13 @@ const HeroSection = () => {
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-600 text-white mt-3"
             >
               <span 
-              
-              className="block bg-gradient-to-br from-[#ae9807] to-[#f1e7cc] hover:bg-slate-800 text-black font-bold rounded-full px-6 py-2">
+              className="block bg-gradient-to-br from-[#ae9807] to-[#f1e7cc] hover:bg-slate-800 text-black font-bold rounded-full px-6 py-2"
+              >
                Hire Me
                </span>
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1e0K3SimU4MMx9FFy1u74Fz4R2GCg8xnn/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-600 text-white mt-3"
             >
               <span 

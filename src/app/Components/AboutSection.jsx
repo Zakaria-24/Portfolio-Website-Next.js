@@ -11,17 +11,37 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>MongoDB</li>
-        <li>Firebase</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Next.js</li>
-      </ul>
+      <div className="flex gap-10">
+        <div>
+          <ul className="list-disc pl-2">
+            <h1 className="text-xl font-semibold text-[#ae9807] underline mb-2">Technical Skills</h1>
+            <div className="flex gap-8">
+              <div>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+              </div>
+              <div>
+                <li>Firebase</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Next.js(Basic)</li>
+                <li>TypeScript(Basic)</li>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div>
+          <ul className="list-disc pl-2">
+            <h1 className="text-xl font-semibold text-[#ae9807] underline mb-2">Soft Skills</h1>
+            <li>Leadership</li>
+            <li>Comminication</li>
+            <li>Team Work</li>
+          </ul>
+        </div>
+      </div>
     ),
   },
   {
@@ -110,7 +130,7 @@ const AboutSection = () => {
               Certifications{" "}
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div>
           <hr className="mb-4" />
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>

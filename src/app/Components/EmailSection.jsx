@@ -51,7 +51,7 @@ const EmailSection = () => {
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-      <div className="z-10 mt-16">
+      <div className="z-10">
         <h5 className="text-4xl font-bold text-[#ae9807] mb-4">
           Let&apos;s Connect
         </h5>
@@ -61,7 +61,7 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="mt-8 mb-6 space-y-4">
+        <div className="mt-8 mb-2 space-y-4 text-white">
         <h3 className="font-semibold">Kushtia,Bangladesh</h3>
         <h2 className="font-semibold">Phone: (+880) 1731-786220</h2>
         <h2 className="font-semibold">Email: zakariajoarder.bd@gmail.com</h2>

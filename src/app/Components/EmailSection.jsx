@@ -61,6 +61,11 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
+        <div className="mt-8 mb-6 space-y-4">
+        <h3 className="font-semibold">Kushtia,Bangladesh</h3>
+        <h2 className="font-semibold">Phone: (+880) 1731-786220</h2>
+        <h2 className="font-semibold">Email: zakariajoarder.bd@gmail.com</h2>
+        </div>
         <div className="socials flex flex-row gap-2">
           <Link
             href="https://github.com/Zakaria-24"

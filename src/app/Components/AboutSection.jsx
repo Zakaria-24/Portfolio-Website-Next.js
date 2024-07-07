@@ -11,7 +11,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="flex gap-10">
+      <div className="lg:flex lg:gap-10">
         <div>
           <ul className="list-disc pl-2">
             <h1 className="text-xl font-semibold text-[#ae9807] underline mb-2">Technical Skills</h1>
@@ -34,7 +34,7 @@ const TAB_DATA = [
           </ul>
         </div>
         <div>
-          <ul className="list-disc pl-2">
+          <ul className="list-disc pt-4 md:pt-0 pl-2">
             <h1 className="text-xl font-semibold text-[#ae9807] underline mb-2">Soft Skills</h1>
             <li>Leadership</li>
             <li>Comminication</li>
